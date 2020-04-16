@@ -1,0 +1,207 @@
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    background-image: url("Imagens/imgCabecalho.jpg");
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c3cbf0;
+    background-size:cover;
+    background-repeat:no-repeat;
+    border: 1px rgb(57, 93, 160) solid;
+}
+
+#tituloPagina {
+    color: rgb(24, 19, 47);
+    text-shadow: black 2px 2px 6px;
+    font-size: 70px;
+    text-align: center;
+}
+
+#conteudo {
+    right: 100%;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+.linkMenu {
+    font-weight: bold;
+    font-family: candara;
+    font-size: 25px;
+    color: rgb(24, 19, 47);
+    text-decoration: unset;
+}
+
+a {
+    color: black;
+    text-decoration: unset;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#imagemGeral {
+    display: flex;
+    justify-content: center;
+}
+
+#destaques {
+    color: rgb(24, 19, 47);;
+    font-family: candara;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#materias1 {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#materias2 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloMateria {
+    text-align: center;
+}
+
+.produtoDestaque {
+    width: 70%;
+    border: gray 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 2px 2px 3px;
+}
+
+.imgDestaque {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#videoMateria {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height:55%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+#audio {
+    width: 100%;
+}
+
+.descDestaque {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#rodape {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: rgb(220, 239, 255);
+}
+
+
+#minhaFotoDiv {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgSobre {
+    width: 20%;
+    border-radius: 10px;
+}
+
+.tituloSobre {
+    font-family: candara;
+    font-size: 30px;
+    text-align: center;
+}
+
+#sobreMim {
+    font-family: candara;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    width: 70%;
+}
+
+.tituloRedes {
+    font-family: candara;
+    font-size: 25px;
+    text-align: center;
+}
+
+#imgRedeSocial {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 30px;
+}
+
+#formularioContato {
+    display: flex;
+    justify-content: center;
+}
+
+.tituloSaibaMais {
+    text-align: center;
+    font-weight: bold;
+    font-family: candara;
+}
+
+.fonte{
+    margin-left: 15%;
+    margin-right: 15%;
+    border: gray 1px solid;
+    box-shadow: gray 2px 2px 3px;
+}
+
+.imgFonte {
+    width: 60%;
+    padding-top: 10px;
+}
+
+#fontes1 {
+    font-weight: bold;
+    font-family: candara;
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#fontes2 {
+    font-weight: bold;
+    font-family: candara;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
